@@ -7,8 +7,7 @@
 !/screenshots/*.png
 
 # 构建 / 临时脚本
-_build_assets.py
-_build_promo.py
+_build_*.py
 __pycache__/
 *.pyc
 
