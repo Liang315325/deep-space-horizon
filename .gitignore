@@ -8,8 +8,12 @@
 
 # 构建 / 临时脚本
 _build_assets.py
+_build_promo.py
 __pycache__/
 *.pyc
+
+# 推广素材（只在本地产出，不进仓库）
+/promo/
 
 # 编辑器 / 系统
 .idea/
