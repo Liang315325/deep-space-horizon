@@ -1,0 +1,22 @@
+# 工作区 / 会话数据
+.workbuddy/
+.tmp/
+
+# 未压缩的原始截图（仓库里只保留 screenshots/ 下的压缩版）
+/*.png
+!/screenshots/*.png
+
+# 构建 / 临时脚本
+_build_assets.py
+__pycache__/
+*.pyc
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 与 index.html 内容完全相同的副本（避免仓库里放两份 336KB）
+宇宙视界.html
