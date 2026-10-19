@@ -56,16 +56,11 @@ python -m http.server 8080
 
 **没有任何依赖需要安装。** 整个项目就是 `index.html` 一个文件。
 
-### 在线演示
+### 关于在线演示
 
-启用 GitHub Pages 后访问：
+**本项目不提供在线演示** —— 单文件作品在本地看效果最好，远程高分辨率渲染反而容易掉帧。
 
-```
-https://liang315325.github.io/deep-space-horizon/
-```
-
-> 开启方式：仓库 **Settings → Pages → Source 选 `Deploy from a branch` → Branch 选 `main` / `root` → Save**。
-> 仓库已包含 `.nojekyll`，无需额外配置。
+想要一个链接的话，把 `index.html` 丢到任意静态托管即可（Cloudflare Pages / Netlify / Vercel / 自己的 nginx），不需要构建步骤。
 
 ---
 
